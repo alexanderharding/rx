@@ -11,20 +11,20 @@ export function rx<In, Out>(source: In, fn: (value: In) => Out): Out;
 export function rx<In, A, B>(
   source: In,
   fn1: (value: In) => A,
-  fn2: (value: A) => B
+  fn2: (value: A) => B,
 ): B;
 export function rx<In, A, B, C>(
   source: In,
   fn1: (value: In) => A,
   fn2: (value: A) => B,
-  fn3: (value: B) => C
+  fn3: (value: B) => C,
 ): C;
 export function rx<In, A, B, C, D>(
   source: In,
   fn1: (value: In) => A,
   fn2: (value: A) => B,
   fn3: (value: B) => C,
-  fn4: (value: C) => D
+  fn4: (value: C) => D,
 ): D;
 export function rx<In, A, B, C, D, E>(
   source: In,
@@ -32,7 +32,7 @@ export function rx<In, A, B, C, D, E>(
   fn2: (value: A) => B,
   fn3: (value: B) => C,
   fn4: (value: C) => D,
-  fn5: (value: D) => E
+  fn5: (value: D) => E,
 ): E;
 export function rx<In, A, B, C, D, E, F>(
   source: In,
@@ -41,7 +41,7 @@ export function rx<In, A, B, C, D, E, F>(
   fn3: (value: B) => C,
   fn4: (value: C) => D,
   fn5: (value: D) => E,
-  fn6: (value: E) => F
+  fn6: (value: E) => F,
 ): F;
 export function rx<In, A, B, C, D, E, F, G>(
   source: In,
@@ -51,7 +51,7 @@ export function rx<In, A, B, C, D, E, F, G>(
   fn4: (value: C) => D,
   fn5: (value: D) => E,
   fn6: (value: E) => F,
-  fn7: (value: F) => G
+  fn7: (value: F) => G,
 ): G;
 export function rx<In, A, B, C, D, E, F, G, H>(
   source: In,
@@ -62,7 +62,7 @@ export function rx<In, A, B, C, D, E, F, G, H>(
   fn5: (value: D) => E,
   fn6: (value: E) => F,
   fn7: (value: F) => G,
-  fn8: (value: G) => H
+  fn8: (value: G) => H,
 ): H;
 export function rx<In, A, B, C, D, E, F, G, H, I>(
   source: In,
@@ -74,7 +74,7 @@ export function rx<In, A, B, C, D, E, F, G, H, I>(
   fn6: (value: E) => F,
   fn7: (value: F) => G,
   fn8: (value: G) => H,
-  fn9: (value: H) => I
+  fn9: (value: H) => I,
 ): I;
 export function rx<In, A, B, C, D, E, F, G, H, I, J>(
   source: In,
@@ -87,7 +87,7 @@ export function rx<In, A, B, C, D, E, F, G, H, I, J>(
   fn7: (value: F) => G,
   fn8: (value: G) => H,
   fn9: (value: H) => I,
-  fn10: (value: I) => J
+  fn10: (value: I) => J,
 ): J;
 export function rx<In, A, B, C, D, E, F, G, H, I, J, K>(
   source: In,
@@ -101,7 +101,7 @@ export function rx<In, A, B, C, D, E, F, G, H, I, J, K>(
   fn8: (value: G) => H,
   fn9: (value: H) => I,
   fn10: (value: I) => J,
-  fn11: (value: J) => K
+  fn11: (value: J) => K,
 ): K;
 export function rx<In, A, B, C, D, E, F, G, H, I, J, K, L>(
   source: In,
@@ -116,7 +116,7 @@ export function rx<In, A, B, C, D, E, F, G, H, I, J, K, L>(
   fn9: (value: H) => I,
   fn10: (value: I) => J,
   fn11: (value: J) => K,
-  fn12: (value: K) => L
+  fn12: (value: K) => L,
 ): L;
 export function rx<In, A, B, C, D, E, F, G, H, I, J, K, L, M>(
   source: In,
@@ -132,7 +132,7 @@ export function rx<In, A, B, C, D, E, F, G, H, I, J, K, L, M>(
   fn10: (value: I) => J,
   fn11: (value: J) => K,
   fn12: (value: K) => L,
-  fn13: (value: L) => M
+  fn13: (value: L) => M,
 ): M;
 export function rx<In, A, B, C, D, E, F, G, H, I, J, K, L, M, N>(
   source: In,
@@ -149,7 +149,7 @@ export function rx<In, A, B, C, D, E, F, G, H, I, J, K, L, M, N>(
   fn11: (value: J) => K,
   fn12: (value: K) => L,
   fn13: (value: L) => M,
-  fn14: (value: M) => N
+  fn14: (value: M) => N,
 ): N;
 export function rx<In, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O>(
   source: In,
@@ -167,7 +167,7 @@ export function rx<In, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O>(
   fn12: (value: K) => L,
   fn13: (value: L) => M,
   fn14: (value: M) => N,
-  fn15: (value: N) => O
+  fn15: (value: N) => O,
 ): O;
 export function rx<In, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P>(
   source: In,
@@ -186,7 +186,7 @@ export function rx<In, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P>(
   fn13: (value: L) => M,
   fn14: (value: M) => N,
   fn15: (value: N) => O,
-  fn16: (value: O) => P
+  fn16: (value: O) => P,
 ): P;
 export function rx<In, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P>(
   source: In,
