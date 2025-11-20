@@ -12,4 +12,4 @@ jobs:
           deno-version: v2.x # Run with latest stable Deno.
       - run: deno fmt --check
       - run: deno lint
-      - run: deno task test:ci
+      - run: deno task test
