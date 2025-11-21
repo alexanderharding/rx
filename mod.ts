@@ -15,8 +15,8 @@
  *
  * ## Running unit tests
  *
- * Run `ng test observable` to execute the unit tests via
- * [Karma](https://karma-runner.github.io).
+ * Run `deno task test` or `deno task test:watch` to execute the unit tests via
+ * [Deno](https://deno.land/).
  *
  * ## Example
  *
