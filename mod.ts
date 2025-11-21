@@ -5,3 +5,4 @@
  */
 export { pipe } from "./pipe.ts";
 export { rx } from "./rx.ts";
+export { Observer } from "./observer.ts";
