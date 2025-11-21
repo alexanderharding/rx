@@ -14,7 +14,8 @@ Automated by `.github\workflows\publish.yml`.
 
 ## Running unit tests
 
-Run `deno task test` or `deno task test:watch` to execute the unit tests via [Deno](https://deno.land/).
+Run `deno task test` or `deno task test:watch` to execute the unit tests via
+[Deno](https://deno.land/).
 
 ## Example
 
