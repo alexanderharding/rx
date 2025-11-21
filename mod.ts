@@ -95,6 +95,7 @@ export { pipe } from "./pipe.ts";
 export { Observer, type ObserverConstructor } from "./observer.ts";
 export { Observable, type ObservableConstructor } from "./observable.ts";
 export { asObserver } from "./as-observer.ts";
+export { asObservable } from "./as-observable.ts";
 import { rx } from "./rx.ts";
 export { rx } from "./rx.ts";
 export default rx;
