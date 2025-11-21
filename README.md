@@ -6,12 +6,11 @@ taking inspiration from [RxJS](https://rxjs.dev/)
 
 ## Build
 
-Run `ng build observable` to build the project. The build artifacts will be
-stored in the `dist/` directory.
+Automated by [JSR](https://jsr.io/)
 
 ## Publishing
 
-Go to the project folder `cd .\projects\observable\` and run `npx jsr publish`.
+Automated by `.github\workflows\publish.yml`.
 
 ## Running unit tests
 
