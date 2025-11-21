@@ -195,7 +195,7 @@ export interface ObservableConstructor {
    * ```
    */
   new <Value>(
-    subscribe: (observer: Observer<Value>) => void
+    subscribe: (observer: Observer<Value>) => void,
   ): Observable<Value>;
   readonly prototype: Observable;
 }
