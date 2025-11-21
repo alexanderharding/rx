@@ -96,6 +96,7 @@ export { Observer, type ObserverConstructor } from "./observer.ts";
 export { Observable, type ObservableConstructor } from "./observable.ts";
 export { asObserver } from "./as-observer.ts";
 export { asObservable } from "./as-observable.ts";
+export { materialize } from "./materialize.ts";
 import { rx } from "./rx.ts";
 export { rx } from "./rx.ts";
 export default rx;
