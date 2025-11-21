@@ -9,7 +9,7 @@ import { asObserver } from "./as-observer.ts";
  * @example
  * Creating an observable with a synchronous producer.
  * ```ts
- * import { Observable } from '@xan/rxjs';
+ * import { Observable } from '@xan/rx';
  *
  * const numbers = new Observable<number>((observer) => {
  *   // Note that this logic is invoked for every new subscribe action
@@ -45,7 +45,7 @@ import { asObserver } from "./as-observer.ts";
  * @example
  * Creating an observable with an asynchronous producer.
  * ```ts
- * import { Observable } from '@xan/rxjs';
+ * import { Observable } from '@xan/rx';
  *
  * const timeout = new Observable<0>((observer) => {
  *   // Note that this logic is invoked for every new subscribe action
@@ -100,7 +100,7 @@ export interface ObservableConstructor {
    * @example
    * Creating an observable with a synchronous producer.
    * ```ts
-   * import { Observable } from '@xan/rxjs';
+   * import { Observable } from '@xan/rx';
    *
    * const observable = new Observable<number>((observer) => {
    *   // Note that this logic is invoked for every new subscribe action.
@@ -135,7 +135,7 @@ export interface ObservableConstructor {
    * @example
    * Creating an observable with an asynchronous producer.
    * ```ts
-   * import { Observable } from '@xan/rxjs';
+   * import { Observable } from '@xan/rx';
    *
    * const observable = new Observable<0>((observer) => {
    *   // Note that this logic is invoked for every new subscribe action.
@@ -177,7 +177,7 @@ export interface ObservableConstructor {
    * @example
    * Creating an observable with no producer.
    * ```ts
-   * import { Observable } from '@xan/rxjs';
+   * import { Observable } from '@xan/rx';
    *
    * const observable = new Observable<never>();
    *
@@ -195,7 +195,7 @@ export interface ObservableConstructor {
    * ```
    */
   new <Value>(
-    subscribe: (observer: Observer<Value>) => void,
+    subscribe: (observer: Observer<Value>) => void
   ): Observable<Value>;
   readonly prototype: Observable;
 }
