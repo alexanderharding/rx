@@ -21,7 +21,7 @@ export function rx<In, Out>(source: In, fn: (value: In) => Out): Out;
 export function rx<In, A, B>(
   source: In,
   fn1: (value: In) => A,
-  fn2: (value: A) => B
+  fn2: (value: A) => B,
 ): B;
 /**
  * Pipe a {@linkcode source|value} through a series of unary functions.
@@ -32,7 +32,7 @@ export function rx<In, A, B, C>(
   source: In,
   fn1: (value: In) => A,
   fn2: (value: A) => B,
-  fn3: (value: B) => C
+  fn3: (value: B) => C,
 ): C;
 /**
  * Pipe a {@linkcode source|value} through a series of unary functions.
@@ -44,7 +44,7 @@ export function rx<In, A, B, C, D>(
   fn1: (value: In) => A,
   fn2: (value: A) => B,
   fn3: (value: B) => C,
-  fn4: (value: C) => D
+  fn4: (value: C) => D,
 ): D;
 /**
  * Pipe a {@linkcode source|value} through a series of unary functions.
@@ -57,7 +57,7 @@ export function rx<In, A, B, C, D, E>(
   fn2: (value: A) => B,
   fn3: (value: B) => C,
   fn4: (value: C) => D,
-  fn5: (value: D) => E
+  fn5: (value: D) => E,
 ): E;
 /**
  * Pipe a {@linkcode source|value} through a series of unary functions.
@@ -71,7 +71,7 @@ export function rx<In, A, B, C, D, E, F>(
   fn3: (value: B) => C,
   fn4: (value: C) => D,
   fn5: (value: D) => E,
-  fn6: (value: E) => F
+  fn6: (value: E) => F,
 ): F;
 /**
  * Pipe a {@linkcode source|value} through a series of unary functions.
@@ -86,7 +86,7 @@ export function rx<In, A, B, C, D, E, F, G>(
   fn4: (value: C) => D,
   fn5: (value: D) => E,
   fn6: (value: E) => F,
-  fn7: (value: F) => G
+  fn7: (value: F) => G,
 ): G;
 /**
  * Pipe a {@linkcode source|value} through a series of unary functions.
@@ -102,7 +102,7 @@ export function rx<In, A, B, C, D, E, F, G, H>(
   fn5: (value: D) => E,
   fn6: (value: E) => F,
   fn7: (value: F) => G,
-  fn8: (value: G) => H
+  fn8: (value: G) => H,
 ): H;
 /**
  * Pipe a {@linkcode source|value} through a series of unary functions.
@@ -119,7 +119,7 @@ export function rx<In, A, B, C, D, E, F, G, H, I>(
   fn6: (value: E) => F,
   fn7: (value: F) => G,
   fn8: (value: G) => H,
-  fn9: (value: H) => I
+  fn9: (value: H) => I,
 ): I;
 /**
  * Pipe a {@linkcode source|value} through a series of unary functions.
@@ -137,7 +137,7 @@ export function rx<In, A, B, C, D, E, F, G, H, I, J>(
   fn7: (value: F) => G,
   fn8: (value: G) => H,
   fn9: (value: H) => I,
-  fn10: (value: I) => J
+  fn10: (value: I) => J,
 ): J;
 /**
  * Pipe a {@linkcode source|value} through a series of unary functions.
@@ -156,7 +156,7 @@ export function rx<In, A, B, C, D, E, F, G, H, I, J, K>(
   fn8: (value: G) => H,
   fn9: (value: H) => I,
   fn10: (value: I) => J,
-  fn11: (value: J) => K
+  fn11: (value: J) => K,
 ): K;
 /**
  * Pipe a {@linkcode source|value} through a series of unary functions.
@@ -176,7 +176,7 @@ export function rx<In, A, B, C, D, E, F, G, H, I, J, K, L>(
   fn9: (value: H) => I,
   fn10: (value: I) => J,
   fn11: (value: J) => K,
-  fn12: (value: K) => L
+  fn12: (value: K) => L,
 ): L;
 /**
  * Pipe a {@linkcode source|value} through a series of unary functions.
@@ -197,7 +197,7 @@ export function rx<In, A, B, C, D, E, F, G, H, I, J, K, L, M>(
   fn10: (value: I) => J,
   fn11: (value: J) => K,
   fn12: (value: K) => L,
-  fn13: (value: L) => M
+  fn13: (value: L) => M,
 ): M;
 /**
  * Pipe a {@linkcode source|value} through a series of unary functions.
@@ -219,7 +219,7 @@ export function rx<In, A, B, C, D, E, F, G, H, I, J, K, L, M, N>(
   fn11: (value: J) => K,
   fn12: (value: K) => L,
   fn13: (value: L) => M,
-  fn14: (value: M) => N
+  fn14: (value: M) => N,
 ): N;
 /**
  * Pipe a {@linkcode source|value} through a series of unary functions.
@@ -242,7 +242,7 @@ export function rx<In, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O>(
   fn12: (value: K) => L,
   fn13: (value: L) => M,
   fn14: (value: M) => N,
-  fn15: (value: N) => O
+  fn15: (value: N) => O,
 ): O;
 /**
  * Pipe a {@linkcode source|value} through a series of unary functions.
@@ -266,7 +266,7 @@ export function rx<In, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P>(
   fn13: (value: L) => M,
   fn14: (value: M) => N,
   fn15: (value: N) => O,
-  fn16: (value: O) => P
+  fn16: (value: O) => P,
 ): P;
 /**
  * Pipe a {@linkcode source|value} through a series of unary functions.
