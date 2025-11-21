@@ -29,7 +29,7 @@ Deno.test(
     assertEquals(nextCalls, [[1], [2]]);
     assertEquals(returnCalls, [[]]);
     assertEquals(throwCalls, []);
-  }
+  },
 );
 
 Deno.test(
@@ -43,7 +43,7 @@ Deno.test(
 
     // Assert
     assertStrictEquals(actual, expected);
-  }
+  },
 );
 Deno.test("asObserver should cache observers", () => {
   // Arrange

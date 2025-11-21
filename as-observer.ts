@@ -8,7 +8,7 @@ const cache = new WeakMap<Observer, Observer>();
  * new {@linkcode Observer} object is created that wraps the original `source`.
  */
 export function asObserver<Value>(): (
-  source: Observer<Value>
+  source: Observer<Value>,
 ) => Observer<Value> {
   return (source) => {
     let observer = source instanceof Observer ? source : cache.get(source);
